@@ -1,0 +1,19 @@
+{
+    "supported_languages":["en", "es"],
+    "welcome_text":{
+        "en": "Hey there! This is the way to translate",
+        "es": "Hola! Esta es la forma de traducir"
+    },
+    "test_description":{
+        "en": "The current language of the website is English",
+        "es": "El idioma actual del sitio web es el español."
+    },
+    "change_language_text":{
+        "en": "From here you can change the language:",
+        "es": "Desde aquí puedes cambiar el idioma:"
+    },
+    "link_example":{
+        "en": "Link a page and keep the GET variable",
+        "es": "Vincular una página y mantener la variable GET"
+    }
+}
