@@ -17,7 +17,7 @@ global $urlRoot; #gets the root of the website
     }
 
     #check if the language is supported
-    $path = "texts.json"; #Get the path to the json file
+    $path = $_SERVER['DOCUMENT_ROOT']."/js/"."texts.json"; #Get the path to the json file
     $handle = file_get_contents($path); #Reads the json file
     $handle = json_decode($handle, true);
     #check in the array of supported languages if the language exists, if not it will redirect the website to the english version of it
@@ -36,7 +36,7 @@ global $urlRoot; #gets the root of the website
 
     #from the JSON "texts.json" return the specific text ($text) for the requested language ($language)
     function get_translated_text($text, $language){
-        $path = "texts.json"; #Get the path to the json file
+        $path = $_SERVER['DOCUMENT_ROOT']."/js/"."texts.json"; #Get the path to the json file
         $handle = file_get_contents($path); #Reads the json file
         $handle = json_decode($handle, true);
         
