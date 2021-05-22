@@ -1,9 +1,9 @@
 # PHP-language-selector
 >This is a PHP script ideal for easy and accesible language changer for your website.
 >The main features of this project are:
->>Fexible language manager
->>Manage the translates from a JSON file
->>The script will automaticaly select the main language of the browser, if the browser's language is not avalable on the website, it will switch to English (en)
+>>Fexible language manager.
+>>Manage the translates from a JSON file.
+>>The script will automaticaly select the main language of the browser, if the browser's language is not avalable on the website, it will switch to English (en).
 
 >>See the demo on the index.php
 
